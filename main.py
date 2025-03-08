@@ -1,8 +1,6 @@
-from utils.j360_crawl import log_in, sort_cots, crawl
+from utils.j360_crawl import crawl
 import asyncio
-import json
 from dotenv import load_dotenv
-import time
 
 load_dotenv()
 

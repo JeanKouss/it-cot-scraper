@@ -1,11 +1,8 @@
 import json
 import os
-import csv
-import asyncio
 import time
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode, BrowserConfig
 from crawl4ai.extraction_strategy import JsonCssExtractionStrategy, LLMExtractionStrategy
-from models.AOYulcom import AOYulcom
 from utils.crawl_utils import store_to_csv
 
 COT_EXTRACT_SCHEMA = {

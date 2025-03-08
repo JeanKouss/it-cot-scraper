@@ -4,7 +4,6 @@ import csv
 import asyncio
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode, BrowserConfig
 from crawl4ai.extraction_strategy import JsonCssExtractionStrategy, LLMExtractionStrategy
-from models.AOYulcom import AOYulcom
 
 def store_to_csv(resource, filename):
     headers = resource[0].keys()
