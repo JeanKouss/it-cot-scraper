@@ -1,0 +1,4 @@
+.scrapenv/
+.env
+*.csv
+__pycache__
